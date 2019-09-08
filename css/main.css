@@ -1,0 +1,109 @@
+/***** BASE STYLES *****/
+
+@charset "UTF-8";
+
+body {
+    font-family: 'Raleway', sans-serif;
+    color: #15212C;
+}
+
+/***** NAVBAR *****/
+
+.navbar.scrolled {
+    background: #f7f7f7;
+    transition: background 500ms;
+}
+
+#mainNavbar {
+    font-size: 1.5rem;
+    font-weight: 100;    
+}
+
+#mainNavbar .nav-link:hover {
+    color: #f98643;
+}
+
+#mainNavbar .navbar-brand {
+    color: #15212C;
+    font-size: 1.5rem;
+}
+
+/***** PORTFOLIO *****/
+
+#portfolio h3 {
+    font-family: 'Lora', serif;
+    font-weight: bold;
+    text-align: center;
+}
+
+#portfolio img {
+    display: inline-flex;
+}
+
+/***** ABOUT ME *****/
+
+#about {
+    background-color: #f98643;
+    color: #ffffff;
+    padding: 70px;
+}
+
+#about .row {
+
+}
+#about h3 {
+    font-family: 'Lora', serif;
+    font-weight: bold;
+    padding-bottom: 35px;
+}
+
+#about p {
+    font-family: 'Lora', serif;
+    font-size: 17px;
+}
+
+#about p span {
+    font-style: italic;
+}
+
+
+
+/***** CONTACT *****/
+
+#contact {
+    height: 580px;
+    background-color: #101C27;
+    color: #f7f7f7;
+}
+
+#contact span {
+    font-family: 'Lora', serif;
+    font-weight: bold;
+    line-height: 44px;
+}
+
+#contact ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#contact ul i {
+    padding: 25px;
+}
+
+#contact a {
+    text-decoration: none;
+    color: #f7f7f7;
+    font-size: 20px;
+}
+
+#envelope {
+    padding-right: 10px;
+    padding-top: 12px;
+}
+
+#contact p {
+    color: #f7f7f7;
+    font-size: 20px;
+}
